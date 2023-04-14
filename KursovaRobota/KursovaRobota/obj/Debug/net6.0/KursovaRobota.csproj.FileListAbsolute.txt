@@ -1,0 +1,15 @@
+D:\НАВЧАННЯЯЯЯЯЯ\Visual Studio\KursovaRobota_GausMethod\KursovaRobota\KursovaRobota\bin\Debug\net6.0\KursovaRobota.exe
+D:\НАВЧАННЯЯЯЯЯЯ\Visual Studio\KursovaRobota_GausMethod\KursovaRobota\KursovaRobota\bin\Debug\net6.0\KursovaRobota.deps.json
+D:\НАВЧАННЯЯЯЯЯЯ\Visual Studio\KursovaRobota_GausMethod\KursovaRobota\KursovaRobota\bin\Debug\net6.0\KursovaRobota.runtimeconfig.json
+D:\НАВЧАННЯЯЯЯЯЯ\Visual Studio\KursovaRobota_GausMethod\KursovaRobota\KursovaRobota\bin\Debug\net6.0\KursovaRobota.dll
+D:\НАВЧАННЯЯЯЯЯЯ\Visual Studio\KursovaRobota_GausMethod\KursovaRobota\KursovaRobota\bin\Debug\net6.0\KursovaRobota.pdb
+D:\НАВЧАННЯЯЯЯЯЯ\Visual Studio\KursovaRobota_GausMethod\KursovaRobota\KursovaRobota\obj\Debug\net6.0\KursovaRobota.csproj.AssemblyReference.cache
+D:\НАВЧАННЯЯЯЯЯЯ\Visual Studio\KursovaRobota_GausMethod\KursovaRobota\KursovaRobota\obj\Debug\net6.0\KursovaRobota.GeneratedMSBuildEditorConfig.editorconfig
+D:\НАВЧАННЯЯЯЯЯЯ\Visual Studio\KursovaRobota_GausMethod\KursovaRobota\KursovaRobota\obj\Debug\net6.0\KursovaRobota.AssemblyInfoInputs.cache
+D:\НАВЧАННЯЯЯЯЯЯ\Visual Studio\KursovaRobota_GausMethod\KursovaRobota\KursovaRobota\obj\Debug\net6.0\KursovaRobota.AssemblyInfo.cs
+D:\НАВЧАННЯЯЯЯЯЯ\Visual Studio\KursovaRobota_GausMethod\KursovaRobota\KursovaRobota\obj\Debug\net6.0\KursovaRobota.csproj.CoreCompileInputs.cache
+D:\НАВЧАННЯЯЯЯЯЯ\Visual Studio\KursovaRobota_GausMethod\KursovaRobota\KursovaRobota\obj\Debug\net6.0\KursovaRobota.dll
+D:\НАВЧАННЯЯЯЯЯЯ\Visual Studio\KursovaRobota_GausMethod\KursovaRobota\KursovaRobota\obj\Debug\net6.0\refint\KursovaRobota.dll
+D:\НАВЧАННЯЯЯЯЯЯ\Visual Studio\KursovaRobota_GausMethod\KursovaRobota\KursovaRobota\obj\Debug\net6.0\KursovaRobota.pdb
+D:\НАВЧАННЯЯЯЯЯЯ\Visual Studio\KursovaRobota_GausMethod\KursovaRobota\KursovaRobota\obj\Debug\net6.0\KursovaRobota.genruntimeconfig.cache
+D:\НАВЧАННЯЯЯЯЯЯ\Visual Studio\KursovaRobota_GausMethod\KursovaRobota\KursovaRobota\obj\Debug\net6.0\ref\KursovaRobota.dll
