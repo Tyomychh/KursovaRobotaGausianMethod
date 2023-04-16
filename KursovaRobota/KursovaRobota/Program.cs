@@ -7,11 +7,18 @@ namespace KursovaRobota
         static void Main(string[] args)
         {
             Console.WriteLine("Введiть розмiрнiсть матрицi:");
-            int n = int.Parse(Console.ReadLine());
+            int n;
+            bool isNumeric = int.TryParse(Console.ReadLine(), out n);
+
+            if (!isNumeric)
+            {
+                Console.WriteLine("\nНекоректно введенi данi, спробуйте заново та введiть число\n");
+                return;
+            }
 
             if (n + 1 > 11 || n < 3)
             {
-                Console.WriteLine("\nВведiть нормальну розмiрнiсть, вона має бути не бiльше 11та не менше 3\n");
+                Console.WriteLine("\nСпробуйте заново, та введiть нормальну розмiрнiсть, вона має бути не бiльше 11 та не менше 3\n");
                 return;
             }
 
@@ -24,8 +31,16 @@ namespace KursovaRobota
                 for (int j = 0; j < n; j++)
                 {
                     Console.Write($"Введiть значення елемента Рядок[{i}],Стовбець[{j}]: ");
-                    coefficients[i, j] = double.Parse(Console.ReadLine());
-                    
+                    string inp = Console.ReadLine();
+                    if (double.TryParse(inp, out double value))
+                    {
+                        coefficients[i, j] = value;
+                    }
+                    else
+                    {
+                        Console.WriteLine("\nНекоректно введенi даннi. Будь ласка, введiть число\n");
+                        j--;
+                    }
                 }
             }
 
@@ -36,13 +51,22 @@ namespace KursovaRobota
             for (int i = 0; i < n; i++)
             {
                 Console.Write($"{i + 1} Стале значення: ");
-                constants[i] = double.Parse(Console.ReadLine());
+                string inp = Console.ReadLine();
+                if (double.TryParse(inp, out double value))
+                {
+                    constants[i] = value;
+                }
+                else
+                {
+                    Console.WriteLine("\nНекоректно введенi даннi. Будь ласка, введiть число\n");
+                    i--;
+                }
             }
 
             Console.WriteLine();
 
             JordanGausClass solver = new JordanGausClass(coefficients, constants);
-            solver.JordanGauss();
+            solver.JordanGaussMethodSolution();
 
             Console.ReadLine();
         }

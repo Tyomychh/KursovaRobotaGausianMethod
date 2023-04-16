@@ -28,7 +28,7 @@ namespace KursovaRobota
         }
 
         // Вирішення методом Жордана-Гауса
-        public void JordanGauss()
+        public void JordanGaussMethodSolution()
         {
             int n = constants.Length;
 
