@@ -6,15 +6,15 @@ namespace KursovaRobota
     {
         static void Main(string[] args)
         {
-            int chislo;
+            int number;
             Console.WriteLine("Введiть розмiрнiсть матрицi:");
-            bool isNumeric = int.TryParse(Console.ReadLine(), out chislo);
+            bool isNumeric = int.TryParse(Console.ReadLine(), out number);
 
-            AuditClass perevirkaprog = new AuditClass(chislo, isNumeric);
-            perevirkaprog.Poverka();
-            perevirkaprog.VvodMatrici();
-            perevirkaprog.VvodVektora();
-            perevirkaprog.VivodVsego();
+            AuditClass perevirkaprog = new AuditClass(number, isNumeric);
+            perevirkaprog.DimensionArrayAudit();
+            perevirkaprog.MatrixFilling();
+            perevirkaprog.VectorFilling();
+            perevirkaprog.CalculationAndOutput();
 
 
             Console.ReadLine();

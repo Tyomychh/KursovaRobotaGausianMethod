@@ -8,35 +8,35 @@ namespace KursovaRobota
 {
     public class AuditClass
     {
-        private int k;
+        private int numInClass;
         private bool question;
         public double[,] coefficients;
         public double[] constants;
         public AuditClass(int n, bool q)
         {
-            k = n;
+            numInClass = n;
             question = q;
-            coefficients = new double[k, k];
-            constants = new double[k];
+            coefficients = new double[numInClass, numInClass];
+            constants = new double[numInClass];
         }
 
-        // Перевірка на коректність введеного числа
-        public void Poverka()
+        // Перевірка на коректність введеної розмірності масиву
+        public void DimensionArrayAudit()
         {
             while (!question)
             {
                 Console.WriteLine("\nНекоректно введенi данi, спробуйте заново та введiть число\n");
-                question = int.TryParse(Console.ReadLine(), out k);
+                question = int.TryParse(Console.ReadLine(), out numInClass);
             }
         }
 
         // Введення та перевірка матриці на коректність введеного числа
-        public void VvodMatrici()
+        public void MatrixFilling()
         {
-            coefficients = new double[k, k];
-            for (int i = 0; i < k; i++)
+            coefficients = new double[numInClass, numInClass];
+            for (int i = 0; i < numInClass; i++)
             {
-                for (int j = 0; j < k; j++)
+                for (int j = 0; j < numInClass; j++)
                 {
                     Console.Write($"Введiть значення елемента Рядок[{i}],Стовбець[{j}]: ");
 
@@ -57,11 +57,11 @@ namespace KursovaRobota
         }
 
         // Введення та перевірка вектора на коректність введеного числа
-        public void VvodVektora()
+        public void VectorFilling()
         {
             Console.WriteLine("Введiть вектор сталих значень:\n");
-            constants = new double[k];
-            for (int i = 0; i < k; i++)
+            constants = new double[numInClass];
+            for (int i = 0; i < numInClass; i++)
             {
                 Console.Write($"{i + 1} Стале значення: ");
 
@@ -80,7 +80,7 @@ namespace KursovaRobota
             }
         }
 
-        public void VivodVsego()
+        public void CalculationAndOutput()
         {
             Console.WriteLine();
 
